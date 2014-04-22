@@ -4,6 +4,7 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
+  background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Dance_floor_2_by_harmon.jpg/800px-Dance_floor_2_by_harmon.jpg");
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -24,4 +25,30 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+.blueBlinkyDancer{
+  height: 195px;
+  width: 350px;
+  background-image:url('http://i.imgur.com/o1ggEVE.gif');
+  position:absolute;
+}
+.asian{
+  border:2px solid yellow;
+  border-radius:10px;
+  position:absolute;
+}
+.lineUp{
+  padding:5px 12px;
+  float:right;
+}
+.green{
+  border: 50px solid green;
+  border-radius: 10px;
+  position: absolute;
+}
+.cat{
+  height: 240px;
+  width: 227px;
+  position: absolute;
+  background-image:url('http://4.bp.blogspot.com/-fYJrkNWec08/T9EYOmNGPNI/AAAAAAAAC04/UtdRRM8a3hc/s640/cat-fat-dancing-cat-gif.gif');
 }
