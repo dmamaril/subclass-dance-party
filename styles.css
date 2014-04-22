@@ -4,7 +4,7 @@ body, html{
 body{
   margin: 0px;
   background-color:#444;
-  background-image:url("http://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Dance_floor_2_by_harmon.jpg/800px-Dance_floor_2_by_harmon.jpg");
+  background-image:url("http://i0.wp.com/phillipalexander.io/wp-content/uploads/2013/08/wallpaper-2979955.jpeg");
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -27,10 +27,12 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .blueBlinkyDancer{
-  height: 195px;
-  width: 350px;
-  background-image:url('http://i.imgur.com/o1ggEVE.gif');
+  height: 400px;
+  width: 400px;
+  background-image:url('http://www.20cents-video.com/userdata/animated-gif/library/tumblr_mjphnqLpNy1s5jjtzo1_400.gif');
   position:absolute;
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
 }
 .asian{
   border:2px solid yellow;
@@ -47,8 +49,58 @@ body, a:link, a:visited, a:active{
   position: absolute;
 }
 .cat{
-  height: 240px;
-  width: 227px;
+  height: 373px;
+  width: 497px;
   position: absolute;
-  background-image:url('http://4.bp.blogspot.com/-fYJrkNWec08/T9EYOmNGPNI/AAAAAAAAC04/UtdRRM8a3hc/s640/cat-fat-dancing-cat-gif.gif');
+  background-image:url('http://25.media.tumblr.com/9f0a84c8bd80809383fcbc84f7cef424/tumblr_mhzaln3pCa1qbwmsbo1_500.gif');
+  background-size: 50% 50%;
+  background-repeat: no-repeat;
+}
+.rotating {
+    position: absolute;
+    width: 288px;
+    height: 333px;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-image:url('http://five23.github.io/nibble/img/nibble.png');
+    -webkit-animation:spin 1.5s linear infinite;
+    -moz-animation:spin 1.5s linear infinite;
+    animation:spin 1.5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.eat{
+  padding:5px 12px;
+  margin-top: 3px;
+  float:right;
+}
+
+.cell{
+  height: 1198px;
+  width: 848px;
+  position:absolute;
+  margin-top: -50px;
+  margin-left: -300px;
+  background-image:url('http://d2elgwt6wbmay0.cloudfront.net/firin-mah-lazer/pic?http%3A%2F%2Frocketdock.com%2Fimages%2Fscreenshots%2F424px-SHOOP_kit.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+
+}
+
+.laser{
+  padding-top: 48px;
+  height: 300px;
+  width: 10px;
+  margin-top: 500px;
+  background-color: #5CD6FF;
+  position: absolute;
 }

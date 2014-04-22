@@ -6,7 +6,7 @@ BlinkyDancer.prototype = Object.create(Dancer.prototype);
 BlinkyDancer.prototype.constructor = BlinkyDancer;
 BlinkyDancer.prototype.oldStep = function(){
   Dancer.prototype.step.call(this);
-}
+};
 BlinkyDancer.prototype.step = function(){
   this.oldStep();
   this.$node.toggle();
